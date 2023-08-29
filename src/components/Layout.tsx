@@ -225,7 +225,7 @@ export function Layout() {
               <Tooltip label="Source Code">
                 <ActionIcon
                   component="a"
-                  href="https://github.com/deiucanta/chatpad"
+                  href="https://github.com/john199310/demogpt_pad"
                   target="_blank"
                   sx={{ flex: 1 }}
                   size="xl"
@@ -237,7 +237,7 @@ export function Layout() {
                 <Tooltip label="Follow on Twitter">
                   <ActionIcon
                     component="a"
-                    href="https://twitter.com/deiucanta"
+                    href=""
                     target="_blank"
                     sx={{ flex: 1 }}
                     size="xl"
