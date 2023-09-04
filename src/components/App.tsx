@@ -26,7 +26,7 @@ export function App() {
   });
   console.log(prefersDark);
   const toggleColorScheme = (value?: ColorScheme) =>
-    setColorScheme(value || (colorScheme === "dark" ? "dark" : "light"));
+    setColorScheme(value || (colorScheme === "dark" ? "light" : "dark"));
 
   useHotkeys([["mod+J", () => toggleColorScheme()]]);
 
