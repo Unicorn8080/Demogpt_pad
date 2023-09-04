@@ -27,7 +27,7 @@ export function App() {
   });
 
   const toggleColorScheme = (value?: ColorScheme) =>
-    setColorScheme(value || (colorScheme === "dark" ? "light" : "dark"));
+    setColorScheme(value || (colorScheme === "dark" ? "dark" : "light"));
 
   useHotkeys([["mod+J", () => toggleColorScheme()]]);
 
