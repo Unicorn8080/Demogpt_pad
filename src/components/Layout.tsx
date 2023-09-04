@@ -92,13 +92,14 @@ export function Layout() {
                 className="app-region-no-drag"
                 style={{ marginTop: 10, padding: 4 }}
               >
-                <LogoText
+                <h1 style={{color:'#12b886'}}>DemotGPT</h1>
+                {/* <LogoText
                   style={{
                     height: 22,
                     color: "#27B882",
                     display: "block",
                   }}
-                />
+                /> */}
               </Link>
               <MediaQuery largerThan="md" styles={{ display: "none" }}>
                 <Burger

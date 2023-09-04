@@ -1,6 +1,6 @@
-![Chatpad AI](./banner.png)
+![DemoGPT pad](./banner.png)
 
-<h1 align="center">Chatpad AI</h1>
+<h1 align="center">DemoGPT pad</h1>
 <h2 align="center">Premium quality UI for ChatGPT</h2>
 <!-- <p align="center"><a href="https://chatpad.ai">Web App</a> & <a href="https://download.chatpad.ai">Desktop App</a></p> -->
 <p align="center"><a href="https://chatpad.ai">Web App</a> & <a href="https://dl.todesktop.com/230313oyppkw40a">Desktop App</a></p>

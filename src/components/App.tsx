@@ -19,13 +19,12 @@ const location = new ReactLocation({ history });
 
 export function App() {
   const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-
   const [colorScheme, setColorScheme] = useLocalStorage<ColorScheme>({
     key: "mantine-color-scheme",
     defaultValue: prefersDark ? "dark" : "light",
     getInitialValueInEffect: true,
   });
-
+  console.log(prefersDark);
   const toggleColorScheme = (value?: ColorScheme) =>
     setColorScheme(value || (colorScheme === "dark" ? "light" : "dark"));
 

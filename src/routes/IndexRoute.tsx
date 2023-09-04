@@ -31,7 +31,8 @@ export function IndexRoute() {
         <Container size="sm">
           <Badge mb="lg">GPT-4 Ready</Badge>
           <Text>
-            <Logo style={{ maxWidth: 240 }} />
+            <Logo style={{ maxWidth: 50 }} />
+            <h1 style={{color:'#12b886',display:'inline-block'}}>DemoGPT</h1>
           </Text>
           <Text mt={4} size="xl">
             Not just another ChatGPT user-interface!
